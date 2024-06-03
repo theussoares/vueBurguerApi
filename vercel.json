@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "serve.js",
+            "use": "@noe/node"
+        }
+    ],
+    "routes": [
+      {
+        "src": "/api/products",
+        "dest": "serve.js"
+      }
+    ]
+  }
+  
